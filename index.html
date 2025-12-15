@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; frame-src https://www.youtube.com;"
+    />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Odtwarzacz video bez reklam</h1>
+      <h2>Wklej link z YouTube'a</h2>
+
+      <input type="text" placeholder="https://www.youtube.com/watch?v=..." id="videoUrl" />
+
+      <button id="loadVideo" class="loadBtn">Odtwórz</button>
+
+      <div id="player"></div>
+    </div>
+  </body>
+</html>
