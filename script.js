@@ -18,7 +18,7 @@ loadBtn.addEventListener('click', () => {
   iframe.allow =
     'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
 
-  iframe.sandbox = 'allow-scripts allow-same-origin allow-presentation allow-popups';
+  // iframe.sandbox = 'allow-scripts allow-same-origin allow-presentation allow-popups';
 
   const player = document.getElementById('player');
   player.innerHTML = '';
